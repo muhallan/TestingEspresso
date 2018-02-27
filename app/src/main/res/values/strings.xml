@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestingEspresso</string>
+    <string name="report_lost_asset">Report Lost Asset</string>
+    <string name="log_out">Log Out</string>
+    <string name="scan">Scan</string>
+    <string name="openDrawer">Drawer Open</string>
+    <string name="closeDrawer">Drawer Closed</string>
+</resources>
