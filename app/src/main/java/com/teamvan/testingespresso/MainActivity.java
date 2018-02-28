@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
     FragmentManager mFragmentManager;
     FragmentTransaction mFragmentTransaction;
 
-    public static TextView name, email;
-    public static MenuItem menuItem;
+    public TextView name, email;
+    public ImageView image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         View header = navigationView.getHeaderView(0);
 
-        ImageView image = header.findViewById(R.id.profile_imageIv);
+        image = header.findViewById(R.id.profile_imageIv);
         name = header.findViewById(R.id.nameTv);
         email = header.findViewById(R.id.emailTv);
 
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Initializing Drawer Layout and ActionBarToggle
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layoutDL);
+        drawerLayout = findViewById(R.id.drawer_layoutDL);
         ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.openDrawer, R.string.closeDrawer) {
 
             @Override

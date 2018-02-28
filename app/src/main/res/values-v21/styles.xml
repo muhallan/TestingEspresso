@@ -3,9 +3,6 @@
     <!-- Default App Theme -->
     <style name="AppTheme" parent="BaseTheme">
         <!-- API specific attributes 21+ -->
-        <item name="selectableDrawableColorDefault">?colorControlHighlight</item>
-        <item name="selectableDrawableColorInverse">@color/selector_white_pressed</item>
-        <item name="selectableDrawableColor">?colorControlHighlight</item>
         <item name="android:actionBarTheme">@style/AppTheme.AppBar.Dark</item>
         <item name="android:actionBarPopupTheme">@style/AppTheme.Overlay.Light</item>
         <item name="android:popupTheme">@style/AppTheme.Overlay.Light</item>

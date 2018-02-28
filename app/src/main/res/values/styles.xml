@@ -138,30 +138,6 @@
         <item name="android:focusable">true</item>
     </style>
 
-    <style name="SelectableItemStyle.Rect">
-        <item name="android:background">?selectableRectDrawable</item>
-    </style>
-
-    <style name="SelectableItemStyle.Rect.Colored">
-        <item name="android:background">?selectableRectDrawableColored</item>
-    </style>
-
-    <style name="SelectableItemStyle.Rect.Inverse">
-        <item name="android:background">?selectableRectDrawableInverse</item>
-    </style>
-
-    <style name="SelectableItemStyle.RoundedRect">
-        <item name="android:background">?selectableRoundedRectDrawable</item>
-    </style>
-
-    <style name="SelectableItemStyle.RoundedRect.Colored">
-        <item name="android:background">?selectableRoundedRectDrawableColored</item>
-    </style>
-
-    <style name="SelectableItemStyle.RoundedRect.Inverse">
-        <item name="android:background">?selectableRoundedRectDrawableInverse</item>
-    </style>
-
     <!-- Text Styles -->
     <style name="TextStyle" parent="TextAppearance.AppCompat">
     </style>
